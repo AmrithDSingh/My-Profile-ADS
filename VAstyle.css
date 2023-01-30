@@ -1,0 +1,32 @@
+*{
+    font-family: normal, Verdana, Arial, Tahoma, Serif;
+    color: whitesmoke;
+    background-color: black;
+}
+ul{ list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: gray;
+}
+ul a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: gray;
+  }
+  
+  ul a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  ul ::after {
+    background-color: black;
+    color: white;
+  }
