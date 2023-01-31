@@ -1,15 +1,15 @@
-*{
-    font-family: normal, Verdana, Arial, Tahoma, Serif;
+*{ 
+  font-family: sans-serif;
     color: whitesmoke;
-    background-color: black;
+    background-color: #232222;
 }
 ul{ list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-decoration: none;
-    overflow: hidden;
-    background-color: gray;
+    overflow: auto;
+    background-color: black;
 }
 ul a {
     float: left;
@@ -18,7 +18,7 @@ ul a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: gray;
+    background-color: black;
   }
   
   ul a:hover {
@@ -30,3 +30,55 @@ ul a {
     background-color: black;
     color: white;
   }
+  img{
+    background-color: black;
+    width: 100px;
+  height: 50px;
+  object-fit: cover;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: black;
+  }
+  @media only screen and (min-width: 980px) {
+    /* styles for desktop */
+    #character-profile {
+      display: flex;
+      align-items: center;
+      margin: 50px;
+    }
+    
+    
+    
+    #img2{
+      margin-right: 50px;
+      width: 200px;
+      border-radius: 50%;
+    }
+    
+    #name {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    strong{
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+  }
+  #character-profile {
+    text-align: center;
+  }
+  
+  #img2{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
