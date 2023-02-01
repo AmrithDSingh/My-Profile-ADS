@@ -10,6 +10,7 @@ ul{ list-style-type: none;
     text-decoration: none;
     overflow: auto;
     background-color: black;
+    box-shadow: black 5px 5px 10px;
 }
 ul a {
     float: left;
@@ -66,11 +67,6 @@ ul a {
       margin-bottom: 20px;
     }
     
-    strong{
-      display: block;
-      margin-bottom: 10px;
-    }
-    
   }
   #character-profile {
     text-align: center;
@@ -80,5 +76,58 @@ ul a {
     width: 200px;
     height: auto;
     border-radius: 50%;
+    box-shadow: black 5px 5px 10px;
   }
-  
+  p{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ #data{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: hidden;
+ }
+   
+ .a{ border: 1px solid black; /* add a 1px black solid border */
+  margin: 10px; /* add a 10px margin */
+  padding: 10px; /* add a 10px padding */
+}
+.eduC{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#skls{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.skl{
+  text-align: justify;
+  text-justify: inter-word;
+}
+ h4{
+  text-decoration-line: underline;
+ }
+ ol{
+  list-style-type: none;
+ }
+ 
+
+#poster{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.b{
+  width: 40%;
+  height: auto;
+}
